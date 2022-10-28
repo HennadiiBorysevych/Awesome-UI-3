@@ -1,0 +1,27 @@
+.about-wraper {
+    padding-bottom: 88px;
+    display: flex;
+    gap: 144px;
+}
+
+.about-wraper::after{
+    content: '';
+position: absolute;
+    width: 570px;
+    height: 530px;
+    left: 830px;
+    top: 2105px;
+    z-index: -1;
+    background-image: linear-gradient(197.92deg, rgba(239, 128, 49, 0) -227.37%, rgba(239, 128, 49, 0.15) 1.58%, rgba(239, 128, 49, 0) 103.02%);
+}
+.about--part {
+    max-width: 452px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.about__text {
+    line-height: 1.5;  
+    color: var(--primary-text-color);
+    margin-bottom: 40px;
+}

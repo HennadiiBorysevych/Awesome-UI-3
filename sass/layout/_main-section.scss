@@ -1,0 +1,49 @@
+.get-started-wraper {
+    
+    display: flex;
+    gap: 168px;
+    padding-bottom: 103px;
+}
+
+.get-started--part {
+    position: relative;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.get-started__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33;
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    margin-bottom: 24px;
+    
+
+    color: #333333;
+}
+
+.get-started__text {
+        max-width: 500px;
+        line-height: 1.5;
+        color: #4F4F4F;
+        margin-bottom: 40px;
+}
+.get-started__pic{
+    background-color: #E5E5E5;
+}
+.get-started--circle{
+    position: absolute;
+    top: 109px;
+    left: 184px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(197.92deg, #EF8031 -227.37%, rgba(239, 128, 49, 0.307045) 1.58%, rgba(239, 128, 49, 0) 103.02%);;
+}
