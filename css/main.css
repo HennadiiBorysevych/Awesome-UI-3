@@ -404,4 +404,18 @@ p {
   line-height: 1.5;
   color: #4F4F4F;
   margin-top: 24px;
+}
+
+.footer-wraper {
+  background-color: #F0DCC5;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+}
+
+.footer--part {
+  max-width: 268px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }/*# sourceMappingURL=main.css.map */
