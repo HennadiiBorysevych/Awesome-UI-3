@@ -44,6 +44,12 @@ background-color: #F0DCC5;
     height: 100%;
     border-radius: 50%;
     background-color: #DFD1C0;
+    fill: #647B64;
+    transition: fill 250ms ease, background-color 250ms ease;
+    &:hover{
+        fill: #DFD1C0;
+        background-color: #647B64;
+    }
 }
 
 .footer-company {
@@ -104,5 +110,5 @@ background-color: #F0DCC5;
 .footer-input {
     padding: 16px 24px;
     width: 268px;
-    height: 144px;
+    
 }
