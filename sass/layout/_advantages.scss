@@ -14,15 +14,18 @@
     flex-direction: column;
 
 }
-.advantages--part::before {
-    content: '';
-    position: absolute;
-    top: -18px;
-    left: -188px;
-    width: 600px;
-    height: 160px;
-    background-image: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+@media screen and (min-width:1169px) {
+    .advantages--part::before {
+            content: '';
+            position: absolute;
+            top: -18px;
+            left: -188px;
+            width: 600px;
+            height: 160px;
+            background-image: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+        }
 }
+
 .advantages-text{
     max-width: 460px;
     line-height: 1.5;
