@@ -1,13 +1,15 @@
-@import './base/common.scss';
+@import './base/common';
 
 @import './utils/mixins';
 @import './utils/_visually-hidden';
 @import './utils/variables';
 
-@import './components/container.scss';
-@import './components/btn.scss';
+@import './components/container';
+@import './components/btn';
 @import './components/titles';
+@import './components/section';
 @import './components/modalWindow';
+@import './components/mobileMenu';
 
 @import './layout/header';
 @import './layout/main-section';

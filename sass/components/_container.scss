@@ -3,9 +3,11 @@
     padding: 0 15px;
     margin: 0 auto;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:1169px) {
     .container {
         width: 420px;
+        padding-right: 24px;
+        padding-left: 24px;
     }
 }
 
