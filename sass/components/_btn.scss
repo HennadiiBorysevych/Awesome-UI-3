@@ -1,4 +1,5 @@
 .btn{
+    position: relative;
     width: fit-content;
     font-weight: 500;
     line-height: 1.5;        
@@ -10,5 +11,14 @@
     border-radius: 2px;
 
     padding: 24px 64px  24px  24px;
-
+    
+    &::after{
+    content: '';
+    position: absolute;
+    height: 16px;
+    top: 26px;
+    right: 27px;
+    width: 24px;
+    background-image: url(/images/btn.svg);
+    }
 }

@@ -1,7 +1,10 @@
 .advantages-wraper {
-    display: flex;
-    gap: 72px;
-    padding-bottom: 104px;
+    @media screen and (min-width:1170px) {
+            display: flex;
+                gap: 72px;
+                padding-bottom: 104px;
+    }
+   padding-bottom: 96px;
 }
 
 .advantages--part {
@@ -36,8 +39,18 @@
 .advantages__item {
     max-width: 288px;
     padding: 32px 40px;
-}
 
+    &:hover{
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+    &:hover .advantages__pic{
+            fill: #FFFFFF;
+            background-color: #647B64;
+        }
+
+  
+}
 .advantages__pic {
     @include flex(flex, center, center);
     width: 48px;
@@ -45,12 +58,15 @@
     border-radius: 8px;
     background-color: #FFFFFF;
     margin-bottom: 16px;
+    fill: #647B64;
+
 }
 
 .advantages-list__title {
         font-weight: 500;
         font-size: 24px;
         line-height: 1.5;
+        
         color: #333333;
 
         margin-bottom: 8px;

@@ -5,12 +5,23 @@ background-color: #F0DCC5;
     
     padding-top: 48px;
     padding-bottom: 48px;
-    display: flex;
+    
+
+    @media screen and (min-width:1170px) {
+        display: flex;
+        width: 100%;
+    }
 }
 .footer--part {
-    max-width: 268px;
     display: flex;
     flex-direction: column;
+    @media screen and (min-width:1170px) {
+        max-width: 268px;
+    }
+    @media screen and (max-width:1169px) {
+        margin-bottom: 40px;
+     
+    }
 }
 .logo--margin{
     margin-bottom: 16px;
@@ -53,8 +64,10 @@ background-color: #F0DCC5;
 }
 
 .footer-company {
-    width: 168px;
-    margin-left: 132px;
+    @media screen and (min-width:1170px) {
+        width: 168px;
+        margin-left: 132px;
+    }
 }
 .footer-company__title {
     font-weight: 500;
@@ -69,6 +82,18 @@ background-color: #F0DCC5;
             margin-bottom: 12px;
         }
 
+}
+@media screen and (max-width:1169px) {
+    .footer--flex{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:1170px) {
+    .footer--flex {
+        display: flex;
+    }
 }
 .support{
     width: 168px;
@@ -91,11 +116,12 @@ background-color: #F0DCC5;
             }
 }
 .footer-form {
-    margin-left: 132px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    
+    @media screen and (min-width:1170px) {
+    margin-left: 132px;
+    }
 }
 .footer-label {
     font-weight: 500;
@@ -106,6 +132,8 @@ background-color: #F0DCC5;
 
 .footer-input {
     padding: 16px 24px;
-    width: 268px;
+    max-width: 268px;
+    min-height:144px ;
+    border: none;
     
 }
