@@ -425,6 +425,7 @@ textarea:focus {
   display: block;
   width: 100vw;
   position: absolute;
+  left: 0;
   top: 100px;
   z-index: 2;
   background-color: #e5e5e5;
@@ -457,7 +458,6 @@ textarea:focus {
     display: none;
   }
   .container--flex {
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
