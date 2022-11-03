@@ -35,6 +35,11 @@
         color: #4F4F4F;
         margin-bottom: 40px;
 }
+@media screen and (max-width:1169px) {
+    .get-started__pic{
+        display: none;
+    }
+}
 .get-started__pic{
     background-color: #E5E5E5;
 }

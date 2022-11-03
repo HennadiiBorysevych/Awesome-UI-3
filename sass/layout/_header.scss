@@ -1,4 +1,16 @@
+@media screen and (max-width:1169px) {
+    .nav-wrapper{
+    display: none;}
 
+    .container--flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    }
+}
 @media screen and (min-width:1170px) {
     .page-header {
             padding: 32px 0 32px 0;
