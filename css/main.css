@@ -562,10 +562,6 @@ textarea:focus {
     display: none;
   }
 }
-.get-started__pic {
-  background-color: #E5E5E5;
-}
-
 @media screen and (max-width: 1169px) {
   .get-started--circle {
     position: absolute;
