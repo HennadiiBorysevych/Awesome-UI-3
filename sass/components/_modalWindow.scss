@@ -15,7 +15,7 @@
 
 .modal-window {
     @media screen and (max-width:767px) {
-        width: 450px;
+        max-width: 450px;
     }
     position: absolute;
     top: 50%;
